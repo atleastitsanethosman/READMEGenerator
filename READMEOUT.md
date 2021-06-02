@@ -1,6 +1,9 @@
 
-  # undefined<br>
-  undefined
+  # README Generator 
+  <br>
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+  <br>
 
   # Table of Contents
   - [Description](#Description)
@@ -8,38 +11,56 @@
   - [Usage](#Usage)
   - [Contributing](#Contributing)
   - [License](#License)
+  - [Citations](#Citations)
   - [Questions](#Questions)
   
   # Description
   
-  A simple command line application to help create readme files using prompts <br>
-  A simple command line application to help create readme files using prompts <br>
+  makes readme files <br>
+   <br>
   
   # Installation
   
-  using node package manager run NPM i and then npm i inquirer from the command line in your directory. <br>
+  npm i <br>
   
   # Usage
   
-  in order to quickly create a readme in a structured fashion at the end of a project. <br>
+  making readme files <br>
   
   # Contributing
   
-  Please reach out via links in contact with suggetions <br>
+  reach out via contact <br>
   
   # Tests
   
-  Not Applicable <br>
+  not applicable <br>
   
   # License and Copywrite
   
-  Copyright 2021 Ian Hennessey<br>
-  undefined<br>
-  undefined<br>
+  Copyright 2021 Ian Hennessey
+  
+  <br>
 
+  
+      Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+      
+      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+      
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+      
+
+  <br>
+
+  [License: The MIT License](<https://opensource.org/licenses/MIT>)
+
+  <br>
+
+  # Citations
+
+  inquirer
   
   # Questions?
   Please reach out to Ian Hennessey using the contact options below: <br>
   [GitHub Profile](<https://github.com/atleastitsanethosman>)<br>
-  [Email](<mailto:ian.hennessey@gmail.c>)
+  [Email](<mailto:ian.hennessey@gmail.com>)
   

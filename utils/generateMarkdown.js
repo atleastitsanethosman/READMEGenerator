@@ -3,13 +3,13 @@
 function renderLicenseBadge(license) {
   switch (license) {
     case 'mit':
-      badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>";
+      badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
     break;
     case 'mozilla':
-      badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)<br>";
+      badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
     break;
     case 'eclipse':
-      badge = "[![License](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://opensource.org/licenses/EPL-2.0)<br>";
+      badge = "[![License](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://opensource.org/licenses/EPL-2.0)";
     break;        
     case 'none':
       badge = "";
@@ -23,13 +23,13 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case 'mit':
-      licenseLink = "[License: The MIT License](https://opensource.org/licenses/MIT)<br>";
+      licenseLink = "[License: The MIT License](<https://opensource.org/licenses/MIT>)";
     break;
     case 'mozilla':
-      licenseLink = "[License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)<br>";
+      licenseLink = "[License: MPL 2.0](<https://opensource.org/licenses/MPL-2.0>)";
     break;
     case 'eclipse':
-      licenseLink = "[License: Eclipse Public License Version 2.0](https://opensource.org/licenses/EPL-2.0)<br>";
+      licenseLink = "[License: Eclipse Public License Version 2.0](<https://opensource.org/licenses/EPL-2.0>)";
     break;        
     case 'none':
       licenseLink = "";
@@ -43,12 +43,12 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   switch (license) {
     case 'mit':
-      licenseText = `Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
+      licenseText = `
+      Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+      
       The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
       
       THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-      
       `;
     break;
     case 'mozilla':
@@ -295,8 +295,11 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title}<br>
-  ${renderLicenseBadge(data.license)}
+  # ${data.projectTitle} 
+  <br>
+
+  ${renderLicenseBadge(data.license)} 
+  <br>
 
   # Table of Contents
   - [Description](#Description)
@@ -304,6 +307,7 @@ function generateMarkdown(data) {
   - [Usage](#Usage)
   - [Contributing](#Contributing)
   - [License](#License)
+  - [Citations](#Citations)
   - [Questions](#Questions)
   
   # Description
@@ -329,10 +333,21 @@ function generateMarkdown(data) {
   
   # License and Copywrite
   
-  Copyright ${data.year} ${data.authorName}<br>
-  ${renderLicenseSection(data.license)}<br>
-  ${renderLicenseLink(data.license)}<br>
+  Copyright ${data.year} ${data.authorName}
+  
+  <br>
 
+  ${renderLicenseSection(data.license)}
+
+  <br>
+
+  ${renderLicenseLink(data.license)}
+
+  <br>
+
+  # Citations
+
+  ${data.citations}
   
   # Questions?
   Please reach out to ${data.authorName} using the contact options below: <br>
