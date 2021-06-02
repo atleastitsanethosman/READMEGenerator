@@ -72,6 +72,10 @@ const questions = [
         {
             name: 'Eclipse Public License version 2.0',
             value: 'eclipse'
+        },
+        {
+            name: 'No License',
+            value: 'none'
         }]
     },
     {
@@ -87,12 +91,15 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, generateMarkdown(data), (err) => 
+    err ? console.error(err) : console.log('success!'))
+}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
-        writeToFile('README.md',answers)
+        writeToFile('READMEOUT.md',answers)
     })
 }
 
