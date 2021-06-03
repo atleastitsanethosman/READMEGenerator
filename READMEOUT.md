@@ -1,5 +1,5 @@
 
-  # Sample Title 
+  # Sample Project 
   <br>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
@@ -16,24 +16,24 @@
   
   # Description
   
-  This is an area to describe project. <br>
-   <br>
+  This is an area for description of project <br>
+  ![](./img/sample.jpg) <br>
   
   # Installation
   
-  This is an area to give installation instructions <br>
+  this is an area to include installation instructions <br>
   
   # Usage
   
-  This is an area to give information on how a user would use your project <br>
+  this is an area to describe how a user would use your project <br>
   
   # Contributing
   
-  this is an area to give guidance on contributing <br>
+  this is an area to provide details on contributions <br>
   
   # Tests
   
-  this is an area to describe tests for the project code <br>
+  this is an area to provide feedback on testing <br>
   
   # License and Copyright
   

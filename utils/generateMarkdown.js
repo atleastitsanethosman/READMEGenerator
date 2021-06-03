@@ -313,7 +313,7 @@ function generateMarkdown(data) {
   # Description
   
   ${data.description} <br>
-  ${data.screenshot} <br>
+  ![](${data.screenshot}) <br>
   
   # Installation
   
