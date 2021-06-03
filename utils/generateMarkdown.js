@@ -306,7 +306,7 @@ function generateMarkdown(data) {
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [Contributing](#Contributing)
-  - [License](#License)
+  - [License and Copyright](#License-and-Copyright)
   - [Citations](#Citations)
   - [Questions](#Questions)
   
@@ -331,7 +331,7 @@ function generateMarkdown(data) {
   
   ${data.tests} <br>
   
-  # License and Copywrite
+  # License and Copyright
   
   Copyright ${data.year} ${data.authorName}
   

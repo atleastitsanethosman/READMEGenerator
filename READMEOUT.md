@@ -1,5 +1,5 @@
 
-  # README Generator 
+  # Sample Title 
   <br>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
@@ -10,32 +10,32 @@
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [Contributing](#Contributing)
-  - [License](#License)
+  - [License and Copyright](#License-and-Copyright)
   - [Citations](#Citations)
   - [Questions](#Questions)
   
   # Description
   
-  makes readme files <br>
+  This is an area to describe project. <br>
    <br>
   
   # Installation
   
-  npm i <br>
+  This is an area to give installation instructions <br>
   
   # Usage
   
-  making readme files <br>
+  This is an area to give information on how a user would use your project <br>
   
   # Contributing
   
-  reach out via contact <br>
+  this is an area to give guidance on contributing <br>
   
   # Tests
   
-  not applicable <br>
+  this is an area to describe tests for the project code <br>
   
-  # License and Copywrite
+  # License and Copyright
   
   Copyright 2021 Ian Hennessey
   
